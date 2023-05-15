@@ -1,0 +1,19 @@
+
+#include <iostream>
+using namespace std;
+
+class Area{
+    int ar;
+    public:
+    Area(int l,int b){
+        ar=l*b;
+        cout<<ar;
+    };
+};
+int main() {
+   int l,b;
+   cin>>l;
+   cin>>b;
+   Area obj(l,b);
+   return 0;
+}
